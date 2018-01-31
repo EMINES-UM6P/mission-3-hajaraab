@@ -93,7 +93,7 @@ public class RegisterActivity extends Activity {
                         String errorMsg = jObj.getString("message");
                         Toast.makeText(getApplicationContext(),
                                 errorMsg, Toast.LENGTH_LONG).show();
-                    }
+                }
                 } catch (JSONException e) {
                     // JSON error
                     e.printStackTrace();
